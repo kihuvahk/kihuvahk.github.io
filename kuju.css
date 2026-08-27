@@ -1,0 +1,95 @@
+body{
+	background:linear-gradient(to bottom,#b5e6ff, white);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	display:grid;
+	grid-template-areas:
+	"nimi p2its ."
+	"vaja koda koda"
+	"vaja koda koda";
+}
+table{
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+thead{
+	
+}
+th, td{
+    border: 1px solid black;
+    padding: 4px;
+    text-align: left;
+	padding: 5px;
+	background-color:white;
+}
+h2{
+	
+}
+th{
+	background-color:#b5e6ff;
+}
+.ylityyp{
+	position: sticky;
+    top: 0;
+	border: 2px solid black;
+	background-color:#808080;
+}
+.k6runimi{
+	position:float;
+	grid-area:nimi;
+	font-size:64px;
+}
+.k6rukuri{
+	grid-area:kuri;
+	max-width:180px;
+	max-height:180px;
+}
+.tunnuskuri{
+	grid-area:kuri;
+}
+.p2its{
+	grid-area:p2its;
+}
+.uninupp{
+	margin:0px;
+	background-color:#b5e6ff;
+	color:grey;
+	text-decoration: none;
+	border:1px solid;
+	border-color:#000000;
+	padding: 5px;
+	font-size:20px;
+}
+.virknupp{
+	background:linear-gradient(to top,#b5e6ff, white);
+	border:2px solid;
+	border-color:#000000;
+	border-radius: 25px;
+	padding: 10px;
+	font-size:30px;
+}
+.vaja{
+	padding: 10px;
+	grid-area:vaja;
+}
+.uudis{
+	
+}
+.uudispeal{
+	
+}
+.h22l{
+	
+}
+.allikad{
+	
+}
+.koda{
+	background-color:#def4ff;
+	border:5px outset;
+	border-color:#000000;
+	border-radius: 15px;
+	padding: 25px;
+	grid-area:koda;
+	#margin-right:200px
+}
